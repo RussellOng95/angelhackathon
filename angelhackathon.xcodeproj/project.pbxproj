@@ -12,6 +12,7 @@
 		FBD37B3522D0803C00852CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD37B3322D0803C00852CC3 /* Main.storyboard */; };
 		FBD37B3822D0803C00852CC3 /* angelhackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBD37B3622D0803C00852CC3 /* angelhackathon.xcdatamodeld */; };
 		FBD37B3A22D0803D00852CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD37B3922D0803D00852CC3 /* Assets.xcassets */; };
+		FBD37B4522D089A500852CC3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD37B4422D089A500852CC3 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FBD37B3722D0803C00852CC3 /* angelhackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = angelhackathon.xcdatamodel; sourceTree = "<group>"; };
 		FBD37B3922D0803D00852CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD37B3E22D0803D00852CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD37B4422D089A500852CC3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FBD37B3922D0803D00852CC3 /* Assets.xcassets */,
 				FBD37B3E22D0803D00852CC3 /* Info.plist */,
 				FBD37B3622D0803C00852CC3 /* angelhackathon.xcdatamodeld */,
+				FBD37B4422D089A500852CC3 /* CollectionViewCell.swift */,
 			);
 			path = angelhackathon;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			files = (
 				FBD37B3222D0803C00852CC3 /* ViewController.swift in Sources */,
 				FBD37B3822D0803C00852CC3 /* angelhackathon.xcdatamodeld in Sources */,
+				FBD37B4522D089A500852CC3 /* CollectionViewCell.swift in Sources */,
 				FBD37B3022D0803C00852CC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
