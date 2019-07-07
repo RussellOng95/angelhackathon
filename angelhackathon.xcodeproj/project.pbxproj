@@ -13,6 +13,9 @@
 		FBD37B3822D0803C00852CC3 /* angelhackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBD37B3622D0803C00852CC3 /* angelhackathon.xcdatamodeld */; };
 		FBD37B3A22D0803D00852CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBD37B3922D0803D00852CC3 /* Assets.xcassets */; };
 		FBD37B4522D089A500852CC3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD37B4422D089A500852CC3 /* CollectionViewCell.swift */; };
+		FBF9996622D150D200DE019D /* DoctorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9996522D150D200DE019D /* DoctorViewCell.swift */; };
+		FBF9996822D151BC00DE019D /* DoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9996722D151BC00DE019D /* DoctorViewController.swift */; };
+		FBF9996A22D18C6C00DE019D /* CasualtyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF9996922D18C6C00DE019D /* CasualtyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FBD37B3922D0803D00852CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBD37B3E22D0803D00852CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBD37B4422D089A500852CC3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FBF9996522D150D200DE019D /* DoctorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorViewCell.swift; sourceTree = "<group>"; };
+		FBF9996722D151BC00DE019D /* DoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorViewController.swift; sourceTree = "<group>"; };
+		FBF9996922D18C6C00DE019D /* CasualtyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasualtyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				FBD37B2F22D0803C00852CC3 /* AppDelegate.swift */,
 				FBD37B3122D0803C00852CC3 /* ViewController.swift */,
 				FBD37B3322D0803C00852CC3 /* Main.storyboard */,
+				FBF9996522D150D200DE019D /* DoctorViewCell.swift */,
 				FBD37B3922D0803D00852CC3 /* Assets.xcassets */,
 				FBD37B3E22D0803D00852CC3 /* Info.plist */,
 				FBD37B3622D0803C00852CC3 /* angelhackathon.xcdatamodeld */,
 				FBD37B4422D089A500852CC3 /* CollectionViewCell.swift */,
+				FBF9996722D151BC00DE019D /* DoctorViewController.swift */,
+				FBF9996922D18C6C00DE019D /* CasualtyViewController.swift */,
 			);
 			path = angelhackathon;
 			sourceTree = "<group>";
@@ -93,6 +102,9 @@
 		FBD37B2422D0803B00852CC3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Russell Ong";
@@ -138,9 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBD37B3222D0803C00852CC3 /* ViewController.swift in Sources */,
+				FBF9996622D150D200DE019D /* DoctorViewCell.swift in Sources */,
 				FBD37B3822D0803C00852CC3 /* angelhackathon.xcdatamodeld in Sources */,
+				FBF9996A22D18C6C00DE019D /* CasualtyViewController.swift in Sources */,
 				FBD37B4522D089A500852CC3 /* CollectionViewCell.swift in Sources */,
 				FBD37B3022D0803C00852CC3 /* AppDelegate.swift in Sources */,
+				FBF9996822D151BC00DE019D /* DoctorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +303,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Russell.angelhackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -307,7 +322,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Russell.angelhackathon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
