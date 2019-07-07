@@ -1,0 +1,6 @@
+framework module Pods_angelhackathon {
+  umbrella header "Pods-angelhackathon-umbrella.h"
+
+  export *
+  module * { export * }
+}
