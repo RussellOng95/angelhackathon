@@ -70,10 +70,10 @@ class ViewController: UIViewController,UICollectionViewDelegate, UICollectionVie
         super.viewDidLoad()
         resourcesViewController.delegate = self
         resourcesViewController.dataSource = self
-        cellArray.append(UIImage(named: "pika")!)
-        cellArray.append(UIImage(named: "pika")!)
-        cellArray.append(UIImage(named: "pika")!)
-        cellArray.append(UIImage(named: "pika")!)
+        cellArray.append(UIImage(named: "ambulance")!)
+        cellArray.append(UIImage(named: "car")!)
+        cellArray.append(UIImage(named: "sedan")!)
+        cellArray.append(UIImage(named: "helicopter")!)
         let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
         centerMapOnLocation(location: initialLocation)
 

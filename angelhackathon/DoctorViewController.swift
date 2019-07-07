@@ -12,9 +12,9 @@ class DoctorViewController: UIViewController,UICollectionViewDelegate, UICollect
     @IBOutlet var doctorCollectionView: UICollectionView!
     
     var cellArray: [UIImage] = []
-    var textOne: [String] = ["Ambulance", "Car", "Van", "Helicopter"]
-    var textTwo: [String] = ["Available: 5","Available: 5","Available: 5","Available: 5"]
-    var textThree: [String] = ["XX","XX","XX","XX"]
+    var textOne: [String] = ["Area of injury: Finger", "Area of injury: Outer Finger", "Area of injury: Side Finger", "Area of injury: Bridge of Finger"]
+    var textTwo: [String] = ["Main overview","Main overview","Main overview","Main overview"]
+    var textThree: [String] = ["Main symptoms: XXX","Main symptoms: XXX","Main symptoms: XXX","Main symptoms: XXX"]
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return cellArray.count
     }
